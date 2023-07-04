@@ -1,0 +1,6 @@
+node_modules/
+build/ 
+
+# safe.env is fine to push, no keys 
+prod.env
+*.code-workspace
