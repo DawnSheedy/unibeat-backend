@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/index.ts",
+    "index-songs": "IMPORT_PATH=dataload/ node scripts/dataLoader.js",
     "build": "tsc"
   },
   "dependencies": {

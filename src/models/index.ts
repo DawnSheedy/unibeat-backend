@@ -1,4 +1,6 @@
 import "./User";
+import "./KeyValue";
+import "./game";
 import { db } from "../services/db";
 
 console.log("🔃 Snychronizing Models!");

@@ -1,5 +1,7 @@
 node_modules/
-build/ 
+build/
+dataload/
+public/songs/
 
 # safe.env is fine to push, no keys 
 prod.env

@@ -11,6 +11,16 @@ COPY yarn.lock ./
 
 RUN yarn
 
+COPY dataload/ ./dataload/
+
+COPY public ./public/
+
+COPY scripts/ ./scripts/
+
+RUN yarn index-songs
+
+RUN rm -rf dataload/
+
 COPY src/ ./src/
 
 COPY tsconfig.json ./
